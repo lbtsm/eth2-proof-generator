@@ -48,7 +48,7 @@ func generateCMD() *cli.Command {
 
 func generate(cliCtx *cli.Context) error {
 	slot := cliCtx.Uint64("slot")
-	url := cliCtx.String("beaconURL")
+	url := cliCtx.String("endpoint")
 	client, err := beacon.NewClient(url)
 	if err != nil {
 		return err
