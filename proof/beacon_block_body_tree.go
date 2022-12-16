@@ -1,4 +1,4 @@
-package main
+package proof
 
 import (
 	ssz "github.com/prysmaticlabs/fastssz"

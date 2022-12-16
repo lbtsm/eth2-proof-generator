@@ -1,4 +1,4 @@
-module github.com/pandarr007/eth2-proof
+module github.com/lbtsm/eth2-proof
 
 go 1.18
 
