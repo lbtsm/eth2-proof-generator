@@ -1,9 +1,10 @@
 package main
 
 import (
-	"github.com/lbtsm/eth2-proof/proof"
+	"fmt"
+	"github.com/lbtsm/eth2-proof-generator/proof"
 )
 
 func main() {
-	proof.Generate(1, "test")
+	fmt.Println(proof.Generate(1, "test"))
 }

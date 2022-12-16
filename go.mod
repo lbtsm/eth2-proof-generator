@@ -1,4 +1,4 @@
-module github.com/lbtsm/eth2-proof
+module github.com/lbtsm/eth2-proof-generator
 
 go 1.18
 
